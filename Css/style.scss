@@ -1,0 +1,28 @@
+html{
+    width: 100%;
+}
+body {
+    width: 100%;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    &__boy_a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    &__boy_b {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+img {
+    width: 24%;
+    margin: 0.25% 0.25% 0.25% 0.25%;
+}
